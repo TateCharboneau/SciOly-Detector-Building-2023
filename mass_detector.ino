@@ -1,5 +1,9 @@
 #include <LiquidCrystal.h>
 
+// ***General wiring instructions can be determined by reading comments. You will need to run a force-sensitive resistor from fsrInput and gather fsrVoltage
+// data. The force-sensitive resistor is built into the CAD-designed housing. The base equation for converting voltage to mass is provided in this file, 
+// however, performing your own calibration will be required.
+
 // LCD Initialization
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
